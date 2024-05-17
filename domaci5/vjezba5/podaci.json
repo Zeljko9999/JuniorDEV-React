@@ -1,0 +1,92 @@
+{
+  "odjeca": [
+    {
+      "id": "588c",
+      "vrsta": "Kosulja",
+      "velicina": "XL",
+      "boja": "#ae4242",
+      "date": "2024-04-18",
+      "slika": "https://http.cat/204"
+    },
+    {
+      "id": "31e5",
+      "vrsta": "Suknja",
+      "velicina": "M",
+      "boja": "#e41111",
+      "date": "",
+      "slika": "https://http.cat/205"
+    },
+    {
+      "id": "586c",
+      "vrsta": "Duksa",
+      "velicina": "S",
+      "boja": "#000000",
+      "date": "2024-04-05",
+      "slika": "https://http.cat/202"
+    },
+    {
+      "id": "042e",
+      "vrsta": "Čarape",
+      "velicina": "XL",
+      "boja": "#163dda",
+      "date": "2024-04-04",
+      "slika": ""
+    }
+  ],
+  "vrste": [
+    {
+      "id": "1",
+      "naziv": "Majica"
+    },
+    {
+      "id": "2",
+      "naziv": "Kosulja"
+    },
+    {
+      "id": "3",
+      "naziv": "Suknja"
+    },
+    {
+      "id": "4",
+      "naziv": "Hlace"
+    },
+    {
+      "id": "5",
+      "naziv": "Kapa"
+    },
+    {
+      "id": "6",
+      "naziv": "Duksa"
+    },
+    {
+      "id": "7",
+      "naziv": "Čarape"
+    }
+  ],
+  "velicine": [
+    {
+      "id": "1",
+      "oznaka": "XS"
+    },
+    {
+      "id": "2",
+      "oznaka": "S"
+    },
+    {
+      "id": "3",
+      "oznaka": "M"
+    },
+    {
+      "id": "4",
+      "oznaka": "L"
+    },
+    {
+      "id": "5",
+      "oznaka": "XL"
+    },
+    {
+      "id": "6",
+      "oznaka": "XXL"
+    }
+  ]
+}

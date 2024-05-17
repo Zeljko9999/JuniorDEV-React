@@ -1,0 +1,254 @@
+.title {
+  display: flex;
+  justify-content: baseline;
+  font-size:25px ;
+  font-family: sans-serif;
+  padding: 30px 20px 20px 30px;
+}
+
+.firstPart {
+  color: grey;
+  
+}
+
+.arrow {
+  color: grey;
+  padding: 2px 7px 0 2px;
+}
+
+.secondPart {
+  font-weight: bold;
+}
+
+.kontakt-forma {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px 20px 40px;
+}
+
+.kontakt-forma > .label {
+  font-family: sans-serif;
+  color: rgb(44, 46, 147);
+  font-size: 23px;
+  padding-bottom: 5px;
+}
+
+.kontakt-forma > .inputElem {
+  border: 3px solid rgb(155, 205, 243);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.kontakt-forma input {
+  padding: 10px 0px 10px 10px;
+  width: 93%;
+  font-size: 18px;
+  text-align:start;
+  margin: 15px;
+}
+
+.adresa-forma {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px 20px 40px;
+}
+
+.adresa-forma > .label {
+  font-family: sans-serif;
+  color: rgb(44, 46, 147);
+  font-size: 23px;
+  padding-bottom: 5px;
+}
+
+.adresa-forma > .inputElem {
+  border: 3px solid rgb(155, 205, 243);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.adresa-forma input {
+  padding: 10px 0px 10px 10px;
+  width: 93%;
+  font-size: 18px;
+  text-align:start;
+  margin: 0px 15px 20px 15px;
+}
+
+.select-list {
+  padding: 10px 0px 10px 10px;
+  width: 95%;
+  font-size: 18px;
+  text-align:start;
+  margin: 0px 15px 20px 15px;
+}
+
+.adresa-forma .secondLabel {
+  font-family: sans-serif;
+  font-size: 18px;
+  margin: 5px 0 3px 15px;
+}
+
+/* Placanje */
+
+.placanje-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 150px;
+  padding: 20px 40px 20px 40px;
+}
+
+.label-placanje{
+    font-family: sans-serif;
+    color: rgb(44, 46, 147);
+    font-size: 23px;
+    padding-bottom: 5px;
+    position: absolute;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    background-color: rgb(238, 238, 237);
+    padding:0 5px 0 5px ;
+}
+
+.placanje-form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px 20px 20px;
+  border: 3px solid rgb(155, 205, 243);
+  border-radius: 10px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.circle {
+  display: inline-block;
+  width: 15px; 
+  height: 15px; 
+  border: 2px solid #4d4e54d1; 
+  border-radius: 50%; 
+  margin-right: 10px;
+  background-color: white;
+}
+
+.placanje-form input[type="radio"] {
+  display: none;
+}
+
+.placanje-form input[type="radio"]:checked + .circle::before {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 9px;
+  height: 9px;
+  border: 2px solid #2156f5e4;
+  border-radius: 50%;
+  background-color: #2156f5e4;
+}
+
+input[type="radio"]:checked + .circle {
+  border-color: rgb(46, 85, 226);
+}
+
+/* Uvjeti narudzbe */
+
+.single-choice-option {
+  margin: 35px 0px 30px 5px;
+}
+
+.single-choice-option label {
+  display: flex;
+  position: relative;
+  padding-left: 75px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.single-choice-option label input {
+  position: absolute;
+  left: -9999px;
+}
+
+.single-choice-option label .custom-checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px; 
+  background-color: #ffffff;
+  border: 2px solid #9d9393cb;
+  border-radius: 3px; 
+  margin-left: 40px;
+}
+
+.single-choice-option label input:checked ~ .custom-checkbox {
+  background-color: #2196f3;
+}
+
+.single-choice-option label .checkmark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.single-choice-option label input:checked ~ .checkmark {
+  display: block;
+}
+
+.single-choice-option label .checkmark:after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* Naruci button */
+
+.naruci {
+  margin-top: 55px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.naruci-button {
+  background-color: #8ce88f; /* Green */
+  border: none;
+  color: rgb(18, 18, 18);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.naruci-button:hover {
+  background-color: #45a049; /* Darker green */
+}
+
+.sazetak-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}

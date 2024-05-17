@@ -1,0 +1,25 @@
+.brisiButton {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid red;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    text-decoration: red;
+  }
+
+  .brisiButton:hover {
+    background-color: darkred;
+  }
+
+  .brisiButton::before {
+    content: '\00D7';
+    color: red;
+    font-size: 30px;
+  }

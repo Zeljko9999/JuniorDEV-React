@@ -1,0 +1,134 @@
+.date {
+    font-size: 20px;
+    text-align: center;
+    color: grey;
+    font-family: cursive;
+    margin:20px 0px 70px 45px;
+  }
+  
+.mid {
+    display: flex;
+    justify-content: space-between;
+    margin:40px 40px 0px;
+}
+
+.club {
+    text-align: center;
+}
+
+.club-image{
+    max-width: 80%;
+    max-height: 200px;
+}
+.club-name {
+    margin-bottom: 0px;
+}
+
+.result {
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result h2 {
+    margin-top: 19px;
+    margin-bottom:20px;
+}
+
+
+.timer p {
+  max-width: 20px;
+  font-size: 30px;
+  margin: 10px auto 20px auto;
+}
+
+.start-button {
+  display: block;
+  margin: 0px auto 20px auto;
+}
+
+.buttons {
+    margin: 10px 0px 20px 50px;
+    display: flex;
+    justify-content: center;
+}
+   
+.buttons button{
+    font-size: 24px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 45px;
+    height: 45px;
+    border: 1px solid rgb(225, 220, 220);  
+    cursor:pointer;
+  }
+
+  button:active {
+    border-color: rgb(92, 96, 92);
+}
+
+/* ******* STATISTICS ****** */
+
+
+  
+  .progress {
+    height: 25px;
+    background-color: #d60a36;
+  }
+  
+  .progress-bar {
+    margin-bottom: 10px;
+    background-color: rgb(45, 129, 6);
+    line-height: 25px;
+    padding-left: 5px;
+    color: transparent;
+  }
+  
+  .progress-bar-section {
+    text-align: center;
+    width: 400px;
+  }
+  
+  .progress-bar-section strong {
+    display: block;
+    color: rgba(16, 16, 14, 0.942);
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+  .stat-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .stat-row .buttons {
+    margin: 10px 10px 0px 10px;
+    align-items: flex-end;
+    flex:1;
+  }
+
+  .stat-row button {
+    width: 30px;
+    height: 30px;
+    margin: 0 15px 0 15px;
+  }
+
+.display {
+  margin:0;
+  padding: 0px;
+  text-align:center;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 10px 0 10px;
+}
+
+.reset-button {
+  display: flex;
+  align-items: center;
+  margin: 30px 0 20px 0;
+  justify-content: center;
+}

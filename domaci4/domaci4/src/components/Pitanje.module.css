@@ -1,0 +1,63 @@
+.containerOdgovori {
+    height: 400px; 
+    max-width: 550px;
+    text-align: center;
+}
+
+.naslovPitanje {
+    border: 1px solid rgb(33, 32, 32);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+.naslovPitanje h1 {
+    font-size: 40px;
+    margin: 20px;
+    font-family: cursive;
+}
+
+.naslovPitanje h3 {
+    margin: 30px;
+}
+
+.odgovori {
+    display: flex;
+    flex-direction: column; 
+    max-width: 300px;  
+    margin: 0 auto;
+}
+
+.odgovorButton { 
+    min-width: 300px;
+    margin: 10px;
+    background-color: rgb(226, 233, 233);
+}
+
+.clicked {
+    background-color: rgb(96, 168, 188);
+
+  }
+
+.odgovor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.zelenakvacica {
+    color: green;
+    font-size: 24px; /* Promijenite veličinu po potrebi */
+}
+
+.crveniiks {
+    color: red;
+    font-size: 24px; /* Promijenite veličinu po potrebi */
+}
+
+.stats {
+    max-width: 200px;
+    font-size: 25px;
+    font-family: cursive;
+    text-align: center;
+}

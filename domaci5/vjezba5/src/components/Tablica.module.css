@@ -1,0 +1,32 @@
+.tableSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.filterNaslov {
+  display: inline-block;
+  font-family:  cursive;
+  color: rgb(89, 89, 191);
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+.filterLabela {
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 15px;
+}
+
+.naslovPopis {
+    font-family:  cursive;
+    color: rgb(89, 89, 191);
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
